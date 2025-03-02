@@ -1,0 +1,46 @@
+{
+  "name": "js-obfuscator",
+  "version": "1.0.0",
+  "description": "Advanced JavaScript obfuscation tool with multiple transformation techniques",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --experimental-modules test/example.js",
+    "prepublishOnly": "npm test"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.24.0",
+    "@babel/traverse": "^7.24.0",
+    "@babel/types": "^7.24.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "obfuscator",
+    "javascript",
+    "security",
+    "code-protection",
+    "ast",
+    "babel"
+  ],
+  "author": "SafwanGanz",
+  "license": "MIT",
+  "homepage": "https://github.com/SafwanGanz/js-obfuscator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SafwanGanz/js-obfuscator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SafwanGanz/js-obfuscator/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "src/**/*",
+    "README.md",
+    "LICENSE"
+  ]
+}
