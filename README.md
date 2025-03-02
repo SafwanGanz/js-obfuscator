@@ -79,8 +79,7 @@ const obfuscated = obfuscate(code, {
 ```bash
 npm install
 ```
-3. Make changes in `src/obfuscator.js`
-4. Test with `example.js`
+3. Make changes in `src/index.js`
 
 ## License
 
