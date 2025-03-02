@@ -1,5 +1,5 @@
 {
-  "name": "js-obfuscator",
+  "name": "obfuscripter",
   "version": "1.0.0",
   "description": "Advanced JavaScript obfuscation tool with multiple transformation techniques",
   "type": "module",
@@ -8,8 +8,6 @@
     ".": "./src/index.js"
   },
   "scripts": {
-    "test": "node --experimental-modules test/example.js",
-    "prepublishOnly": "npm test"
   },
   "dependencies": {
     "@babel/parser": "^7.24.0",
