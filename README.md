@@ -1,4 +1,4 @@
-# JS Obfuscator Advanced
+# JavaScript Obfuscator
 
 A modern, advanced JavaScript obfuscation tool built as an ES Module. Transform your JavaScript code to make it harder to reverse-engineer while maintaining functionality.
 
