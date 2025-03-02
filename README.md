@@ -14,13 +14,13 @@ A modern, advanced JavaScript obfuscation tool built as an ES Module. Transform 
 ## Installation
 
 ```bash
-npm install js-obfuscator-advanced
+npm install obfuscripter
 ```
 
 ## Usage
 
 ```javascript
-import { obfuscate } from 'js-obfuscator-advanced';
+import { obfuscate } from 'obfuscripter';
 
 const sourceCode = `
   const greeting = "Hello World";
